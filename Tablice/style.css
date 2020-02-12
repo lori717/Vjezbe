@@ -1,0 +1,44 @@
+table {
+        border: 3px;
+        border-collapse: collapse;
+        border: 1px;
+        text-align: center;
+        margin: 0 auto;
+}
+
+tr, th  {
+        width: 200px;
+        font-family: Marker Felt, fantasy;
+        font-size: 30px;
+}
+
+th {
+    padding: 10px;
+} 
+
+h1  {
+    text-align: center;
+}   
+
+.left {
+    float: left;
+    width:25%; 
+    height:280px; 
+    
+}   
+
+.center {
+    float: left;
+    width:50%; 
+    height:280px;
+    
+}   
+ 
+
+.right {
+    float: right;
+    
+    
+}   
+
+  
