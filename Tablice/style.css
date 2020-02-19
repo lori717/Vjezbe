@@ -1,3 +1,5 @@
+
+
 table {
         border: 3px;
         border-collapse: collapse;
@@ -8,8 +10,9 @@ table {
 
 tr, th  {
         width: 200px;
-        font-family: Marker Felt, fantasy;
-        font-size: 30px;
+        font-family: 'Lato', sans-serif;
+        font-size: 16px;
+        letter-spacing: 2px;
 }
 
 th {
@@ -40,5 +43,3 @@ h1  {
     
     
 }   
-
-  

@@ -2,86 +2,215 @@
 <html>
 
 <head>
+    
     <meta charset="UTF-8">
+    
+    <style>
+        .navigation {
+                    box-sizing: border-box;
+                    background-color:#9ae59a;
+                    overflow: auto;
+                    padding: 18px 50px;
+                    position: relative;
+                    top: 0;
+                    width: 100%;
+                    z-index: 999;
+                    border-bottom: #155115 solid;
+                    height:300; 
+                    position: fixed;
+                    
+                    
+}
+
+        ul {
+                    padding: 0;
+                    margin: 0;
+}
+        li {
+                    color: #FFF;
+                    display: inline-block;
+                    font-family: 'Oxygen', sans-serif;
+                    font-size: 25px;
+                    font-weight: 300;
+                    letter-spacing: 2px;
+                    margin: 0;
+                    padding: 20px 18px 10px 18px;
+                    text-transform: none;
+                    margin-right: 00px;
+        
+        
+        
+}
+
+        .active {
+                    color: #88CCF1;
+}
+
+        th {
+                    width
+}
+
+        thead th {
+    
+                    background: #f17882;
+                    color: #FFF;
+                    font-family: 'Lato', sans-serif;
+                    font-size: 16px;
+                    font-weight: 100;
+                    letter-spacing: 2px;
+                    text-transform: uppercase;
+    
+  }
+
+         table {
+                    height: 00px;
+                    width: 1000px;
+                    margin: 0; padding: 0;
+                    border-collapse: collapse;
+}
+
+        div {
+    
+
+}
+        tr {
+     
+            
+}
+
+
+
+
+        
+
+    </style>
     <link rel="stylesheet" href="style.css" type="text/css">
     <title>First Gen Pokemon Chart</title>
+
 </head>
 
 <body>
     
+    <ul class="navigation">
+        
+        <li>
+            <img src="pokemon-logo-vector-400x400Q.png" height="75px" style="left: 20px;">
+        </li>
+        <li class="active">
+            <a href="https://forums.bulbagarden.net/index.php" style="text-decoration: none;">FORUMS</a>
+        </li>
+        <li>
+            <A href="https://bulbapedia.bulbagarden.net/wiki/Main_Page" style="text-decoration: none;">BULBAPEDIA</A>
+        </li>
+        <li>
+            <a href="https://bulbanews.bulbagarden.net/wiki/Front_page" style="text-decoration: none;">BULBANEWS</a>
+        </li>
+        
+    </ul>
     
-    <h1>
+    <h1 style="padding-top: 150px;">
         <a href="https://fontmeme.com/pokemon-go-font/"><img src="https://fontmeme.com/permalink/200210/f7e8689ef7ef5b703af85dd82d82ed0b.png" alt="pokemon-go-font" border="0"></a>  
     </h1>
 
     <div class="left">
-        <img src="Untitled-1.jpg">
+        <img src="Untitled-1.jpg" style="border-style: dotted;">
     </div>
 
     <div class="center">
     <table border="1">
+        <thead style="background: #f27c87;">
         
-        <!--TABLE HEADING-->
-        <tr>
-            <th>IMAGE</th>
-            <th>NAME</th>
-            <th>TYPE</th>
-            <th>1st EVOLUTION</th>
-            <th>2nd EVOLUTION</th>
-        </tr>
-        <!--BULBASAUR-->
-        <tr>
-            <td>
-                <img src="001Bulbasaur.png">
-            </td>
-            <td>
-                <a href="https://bulbapedia.bulbagarden.net/wiki/Bulbasaur_(Pokémon)" style="text-decoration: none;">Bulbasaur</a>   
-            </td>
-            <td bgcolor="89b88a">Grass/Poison</td>
-            <td>
-                <a href="https://bulbapedia.bulbagarden.net/wiki/Ivysaur_(Pokémon)" style="text-decoration: none;">Ivysaur</a>
-            </td>
-            <td>
-                <a href="https://bulbapedia.bulbagarden.net/wiki/Venusaur_(Pokémon)" style="text-decoration: none;">Venusaur</a>
-            </td>
-        </tr>
-        <!--CHARMANDER-->
-        <tr>
-            <td>
-                <img src="004Charmander.png">
-            </td>
-            <td>
-                <a href="https://bulbapedia.bulbagarden.net/wiki/Charmander_(Pokémon)" style="text-decoration: none;">Charmander</a>    
-            </td>
-            <td bgcolor="e37744"> Fire </td>
-            <td>
-                <a href="https://bulbapedia.bulbagarden.net/wiki/Charmeleon_(Pokémon)" style="text-decoration: none;">Charmeleon</a>
-            </td>
-            <td>
-                <a href="https://bulbapedia.bulbagarden.net/wiki/Charizard_(Pokémon)" style="text-decoration: none;">Charizard</a>
-            </td>
-        </tr>
-        <!--SQUIRTLE-->
-        <tr>
-            <td>
-                <img src="007Squirtle.png"> 
-            </td>
-            <td>
-                <a href="https://bulbapedia.bulbagarden.net/wiki/Squirtle_(Pokémon)" style="text-decoration: none;">Squirtle</a>
-            </td>
-            <td bgcolor="669eb1">Water</td>
-            <td>
-                <a href="https://bulbapedia.bulbagarden.net/wiki/Wartortle_(Pokémon)" style="text-decoration: none;">Wartortle</a>
-            </td>
-            <td>
-                <a href="https://bulbapedia.bulbagarden.net/wiki/Blastoise_(Pokémon)" style="text-decoration: none;">Blastoise</a>
-            </td>
-        </tr>
+            <!--TABLE HEADING-->
+            <tr>
+                <th>IMAGE</th>
+                <th>1st APPEARANCE</th>
+                <th>TYPE</th>
+                <th>1st EVOLUTION</th>
+                <th>2nd EVOLUTION</th>
+            </tr>
+
+        </thead>
+
+        <tbody>
+            <!--BULBASAUR-->
+            <tr style="background: #95cbae;">
+                <td style="padding-bottom: 20px;">
+                    <img src="001BulbasaurY.PNG">
+                    <a href="https://bulbapedia.bulbagarden.net/wiki/Bulbasaur_(Pokémon)" style="text-decoration: none;">BULBASAUR</a>
+                </td>
+                <td>
+                    <img src="200px-EP010 BulbasaurSA.png" style="padding: 10px;">
+                    <a href="https://bulbapedia.bulbagarden.net/wiki/EP010" style="text-decoration: none;"> <br>BULBASAUR AND THE HIDDEN VILLAGE</a>
+                    
+                </td>
+                <td>
+                    <img src="Grass-type-symbol-Pokemon-tcgY.png">
+                    <img src="pokemon-3416765_960_720Y.png">
+                    <a href="https://bulbapedia.bulbagarden.net/wiki/Grass_(type)" style="text-decoration: none;">GRASS/POISON</a> 
+                </td>
+                <td>
+                    <img src="250px-002IvysaurY.png">
+                    <a href="https://bulbapedia.bulbagarden.net/wiki/Ivysaur_(Pokémon)" style="text-decoration: none;">IVYSAUR</a>
+                </td>
+                <td>
+                    <img src="250px-003VenusaurY.png">
+                    <a href="https://bulbapedia.bulbagarden.net/wiki/Venusaur_(Pokémon)" style="text-decoration: none;">VENUSAUR</a>
+                </td>
+            </tr>
+            <!--CHARMANDER-->
+            <tr style="background: #f4c19b;">
+                <td style="padding-bottom: 20px;">
+                    
+                    <img src="004CharmanderY.png">
+                    <a href="https://bulbapedia.bulbagarden.net/wiki/Charmander_(Pokémon)" style="text-decoration: none;">CHARMANDER</a>
+                </td>
+                <td>
+                    <img src="200px-EP011Y.png" style="padding: 10px;">
+                    <a href="https://bulbapedia.bulbagarden.net/wiki/EP011" style="text-decoration: none;"> <br>CHARMANDER <BR>- THE STRAY POKEMON</a>
+                </td>
+                <td>
+                    <img src="160983187Y.png"> 
+                    <a href="https://bulbapedia.bulbagarden.net/wiki/Fire_(type)" style="text-decoration: none;"> <br>FIRE</a>
+                </td>
+                <td>
+                    <img src="250px-005CharmeleonY.png">
+                    <a href="https://bulbapedia.bulbagarden.net/wiki/Charmeleon_(Pokémon)" style="text-decoration: none;">CHARMELEON</a>
+                </td>
+                <td>
+                    <img src="250px-006CharizardY.png">
+                    <a href="https://bulbapedia.bulbagarden.net/wiki/Charizard_(Pokémon)" style="text-decoration: none;">CHARIZARD</a>
+                </td>
+            </tr>
+            <!--SQUIRTLE-->
+                <tr style="background: #aed7e1 ;">
+                <td style="padding-bottom: 20px;">
+                    <img src="007SquirtleY.png"> 
+                    <a href="https://bulbapedia.bulbagarden.net/wiki/Squirtle_(Pokémon)" style="text-decoration: none;">SQUIRTLE</a>
+                </td>
+                <td>
+                    <img src="200px-EP012Y.png" style="padding: 10px;">
+                    <a href="https://bulbapedia.bulbagarden.net/wiki/EP012" style="text-decoration: none;"> <br>HERE COMES THE SQUIRTLE SQUAD</a>
+                </td>
+                <td>
+                    <img src="304-3043437_water-type-pokemon-water-type-symbolY.png">
+                    <a href="https://bulbapedia.bulbagarden.net/wiki/Water_(type)" style="text-decoration: none;">WATER</a>
+                </td>
+                <td>
+                    <img src="250px-008WartortleXX.png">
+                    <a href="https://bulbapedia.bulbagarden.net/wiki/Wartortle_(Pokémon)" style="text-decoration: none;">WARTORTLE</a>
+                </td>
+                <td>
+                    <img src="250px-009BlastoiseXX.png">
+                    <a href="https://bulbapedia.bulbagarden.net/wiki/Blastoise_(Pokémon)" style="text-decoration: none;">BLASTOISE</a>
+                </td>
+            </tr>
+        </tbody>
+
     </table>
     </div>
     
     <div class="right">
-        <img src="Untitled-2.jpg">
+        <img src="Untitled-2.jpg" style="border-style: dotted;" style="">
     </div>
 
 </body>
