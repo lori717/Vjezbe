@@ -1,0 +1,249 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="UTF-8">
+    <link rel="stylesheet" type="text/css" href="style.css">
+    <style>
+        
+        .container {
+        
+    }
+       .logo {
+            font-family: 'Stint Ultra Expanded', ;
+            font-size: 15px;
+            overflow: hidden;
+            position: fixed;
+            top: 0;
+            width: 100%;
+            background-color: #ffca05;
+            border-bottom-style: solid;
+            
+                        
+        }
+
+        .napravi {
+            font-family: 'Courier New', Courier, monospace;
+            font-size: 25px;
+            letter-spacing: 4px;
+            word-spacing: 3px;
+
+        }
+
+        .text {
+            font-family: 'Courier New', Courier, monospace ;
+            font-size: 15px;  
+            background-color: #0f0e9f;  
+            color: #ffca05; 
+            letter-spacing: 4px;
+            word-spacing: 3px;
+        }
+
+        .slika1 {
+            
+        }
+
+        .form {
+            font-family: 'Courier New', Courier, monospace
+            ;
+            
+        }
+
+        .slika2 { 
+            
+            
+            
+        }   
+       
+
+       body {
+            background-color: #ffca05;
+            width: 100%;
+            height: 100%;
+            font-family:  'Helvetica Neue', Helvetica, Arial;
+            font-size: 18px;
+            letter-spacing: 2px;
+            line-height: 1;
+            color: #0f0e9f ;
+            padding-top: 90px;
+            margin: 0;
+            display: block;
+            text-align: center;
+    
+        }
+
+        h1 {
+            color: #0f0e9f;
+            font-family: 'Economica', sans-serif;
+        }
+
+        fieldset {
+            background-color:;
+            width: 1000px;
+            padding:16px;	
+            border:2px solid #0f0e9f;
+            margin: 0 auto;
+        }
+
+        .footer {
+            background-color: #0f0e9f;
+            color: #ffca05;
+            font-family: 'Courier New', Courier, monospace;
+        }
+    </style>
+    <title>Submarine Burger</title>
+</head>
+<body>
+    <section id="overlay">
+    <div id="container">
+        <div class="logo">
+            <img src="submarine-logo-3.png" alt="Submarine Logo" id="logo">
+        </div>
+        <br><br><br><br>
+        <div class="text">  
+                <br> 
+                <h2>Submarine is the premium quality gourmet burger.</h2>
+                <h3>Burgers are made of preferred natural, organic, local, homemade ingredients, <br> prepared in a traditional way, served in a contemporary and fun environment.</h2>
+                <br>
+            
+        </div>
+            <br> <br>
+        <div class="slika1">
+            
+        </div>
+
+        <div class="napravi">
+            <fieldset><p>osmisli svoj burger</p></fieldset>
+                
+        </div>
+        <br>
+        <div class="form">
+            <form action="submission.html" method="POST"></form>
+                <fieldset>
+                
+
+                <section class="protein">
+                    <label for="patty">Izaberi svoj glavni izvor proteina - pljeskavicu! U ponudi imamo: goveđa pljeskavica, pljeskavica od leće u curry umaku ili BIO povrtna pljeskavica.</label>
+                    <br>
+                    <br>
+                    <input type="text" name="patty" id="patty" style="background-color: #ffca05;">
+                </section>
+                <hr>
+
+                <section class="pljeskavice">
+                    <label for="amount">Koliko pljeskavica želiš? Možeš izabrati najviše 3 pljeskavice!</label>
+                    <br>
+                    <br>
+                    <input type="number" name="amount" id="amount" min="0" max="3" style="background-color: #ffca05;">
+                </section>
+                <hr>
+
+                <section class="umak">
+                    <label for="količina">Koliko umaka želiš staviti?</label>
+                    <br>
+                    <br>
+                    <span>Malo</span>
+                    <input type="range" name="doneness" id="doneness" value="3" min="1" max="5">
+                    <span>Puno</span>
+                </section>
+                <hr>
+
+                <section class="dodatci">
+                    <span>Izaberi koje dodatke želiš u burger!</span>
+                    <br>
+                    <br>
+                    <input type="checkbox" name="topping" id="salata" value="salata">
+                    <label for="salata">zelena salata</label>
+                    <input type="checkbox" name="topping" id="rajčica" value="rajčica">
+                    <label for="rajčica">rajčica</label>
+                    <input type="checkbox" name="topping" id="luk" value="luk">
+                    <label for="luk">luk</label>
+                    <input type="checkbox" name="topping" id="kiseli krastavci" value="kiseli krastavci">
+                    <label for="kiseli krastavci">kiseli krastavci</label>
+                    <input type="checkbox" name="topping" id="rikola" value="rikola">
+                    <label for="rikola">rikola</label>
+                    <input type="checkbox" name="topping" id="kupus" value="kupus">
+                    <label for="kupus">kupus</label>
+                    <input type="checkbox" name="topping" id="avokado" value="avokado">
+                    <label for="kiseli krastavci">avokado</label>
+                </section>
+                <hr>
+
+                <section class="cheesy">
+                    <span>Sir ili tofu?</span>
+                    <br>
+                    <br>
+                    <input type="radio" name="cheese" id="sir" value="sir">
+                    <label for="yes">sir</label>
+                    <input type="radio" name="tofu" id="tofu" value="tofu">
+                    <label for="no">tofu</label>
+                </section>  
+                <hr>
+
+                <section class="cheese-type">
+                    <label for="cheese">Izaberi sir koji želiš!</label>
+                    <br>
+                    <br>
+                    <select name="cheese" id="cheesee" style="background-color: #ffca05;">
+                    <option value="brie">brie</option>
+                    <option value="topljeni dimljeni sir">topljeni dimljeni sir</option>
+                    <option value="topljeni tofu">topljeni tofu</option>
+                    </select>
+                </section>
+                <hr>
+
+                <section class="sauce-selection">
+                    <label for="sauce">Koji umak želiš?</label>
+                    <br>
+                    <br>
+                    <input list="sauces" id="sauce" name="sauce" style="background-color: #ffca05;">
+                    <datalist id="sauces">
+                    <option value="BBQ majoneza"></option>
+                    <option value="umak s bijelim tartufima"></option>
+                    <option value="umak s medom i senfom"></option>
+                    <option value="Special Submarine sauce"></option>
+                    </datalist>
+                </section>
+                <hr>
+                
+
+                <section class="extra-info">
+                    <label for="extra">Želiš li dodati još nešto u svoju naruđbu?</label>
+                    <br>
+                    <br>
+                    <textarea id="extra" name="extra" rows="3" cols="40" style="background-color: #ffca05;">Napiši nam što želiš.</textarea>
+                </section>
+                <hr>
+
+                <section class="submission">
+                    <input type="submit" value="Submit">
+                </section>
+                </form>
+            </section>
+            </fieldset>
+        </div>
+        <div class="slika2">
+           
+        </div>
+        <br> <br> <br>
+
+        <div class="footer">
+            <footer>
+                <br>
+                <li>SOCIAL</li>
+                <br>
+                    <a href="https://www.facebook.com/submarineburger/"> <img src="fb.png"> </a>
+                    <a href="https://www.instagram.com/submarineburger/"> <img src="ig.png"></a>
+                <br> <br>
+                <li>CONTACT</li>
+                    <p>Yellow Submarine d.o.o.</p>
+                    <p>Radnicka 34, 10 000 Zagreb</p>
+                    <p> OIB: 63336519951</p>
+                    <p>mail: info@submarineburger.com</p>
+                <br>
+            </footer>
+        </div>
+
+    </div>
+
+</body>
+</html>

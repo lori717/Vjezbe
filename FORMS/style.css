@@ -1,0 +1,28 @@
+body {
+    background-color: #ffca05;
+    width: 100%;
+    height: 100%;
+    font-family:  'Courier New', Courier, monospace
+    font-size: 18px;
+    letter-spacing: 2px;
+    line-height: 1;
+    color: #333333;
+    padding-top: 90px;
+    margin: 0;
+    display: block;
+    text-align: center;
+    
+}
+
+h1 {
+    color: #0f0e9f;
+    font-family: 'Economica', sans-serif;
+}
+
+fieldset {
+    background-color:;
+    width: 1000px;
+    padding:16px;	
+    border:2px solid #0f0e9f;
+    margin: 0 auto;
+}
